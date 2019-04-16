@@ -1,0 +1,32 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.login__logo{
+    background: lightblue;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.login__input{
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    width: 100%;
+    min-width: 320px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.login__btn{
+    background-color: slategray;
+    padding: 10px 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.1);
+    display: block;
+    margin: 0 auto;
+    font-size: inherit;
+}

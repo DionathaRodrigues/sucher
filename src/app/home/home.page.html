@@ -1,14 +1,14 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  <div class="ion-padding main-header">
+    <div *ngIf="true" class="login-btn" [routerLink]="['/login']">Entrar</div>
+    <div *ngIf="false">JP</div>
+  </div>
+  <div class="ion-padding main-page">
+    <div class="main-page__logo">LOGO</div>
+    <form action="">
+      <input class="main-page__input-search" type="text" placeholder="O que deseja buscar?">
+
+      <button class="main-page__search-btn" [routerLink]="['/results']">Pesquisar</button>
+    </form>
   </div>
 </ion-content>
