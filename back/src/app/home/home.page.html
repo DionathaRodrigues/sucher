@@ -1,0 +1,14 @@
+<ion-content>
+  <div class="ion-padding main-header">
+    <div *ngIf="true" class="login-btn" [routerLink]="['/login']">Entrar</div>
+    <div *ngIf="false">JP</div>
+  </div>
+  <div class="ion-padding main-page">
+    <div class="main-page__logo">LOGO</div>
+    <form action="">
+      <input class="main-page__input-search" type="text" placeholder="O que deseja buscar?">
+
+      <button class="main-page__search-btn" [routerLink]="['/results']">Pesquisar</button>
+    </form>
+  </div>
+</ion-content>
